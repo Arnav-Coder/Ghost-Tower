@@ -36,8 +36,11 @@ function setup() {
   ghost.addImage("ghost", ghostImg);
 
    Margin1 = createSprite(1,300,10,900);
+   Margin1.visible = false;
    Margin2 = createSprite(600,300,10,900);
+   Margin2.visible = false;
    Margin3 = createSprite(300,1,900,10);
+   Margin3.visible = false;
 }
 
 
